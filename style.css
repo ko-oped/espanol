@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('grass-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 30px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.main-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+.main-content h1,
+.main-content h2 {
+  font-weight: normal;
+  color: #ccf;
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.aero-button {
+  background: linear-gradient(145deg, #1bc2c2, #2ef);
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.aero-button:hover {
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  border-radius: 15px;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
