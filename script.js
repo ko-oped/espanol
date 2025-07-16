@@ -1,3 +1,3 @@
 document.querySelector(".aero-button").addEventListener("click", () => {
-  alert("Welcome to the Frutiger Aero world!");
+  alert("Nombre: João Victor Castro de Oliveira\nClase: 471");
 });
